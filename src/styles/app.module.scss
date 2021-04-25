@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+
+    main{
+        flex: 1;
+    }
+
+    .playerMini{
+        @media(min-width: 800px){
+              display: none;
+          }
+         
+   
+      }
+      .playerMax{
+        @media(max-width: 800px){
+              display: none;
+          }
+         
+   
+      }
+}
